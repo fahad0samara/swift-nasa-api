@@ -23,9 +23,7 @@ struct WelcomeView: View {
                 
                 VStack {
                     Spacer()
-                
-                    
-                    Text("Welcome to NASA Explorer")
+                Text("Welcome to NASA Explorer")
                         .font(.system(size: 40, weight: .bold, design: .rounded))
                         .multilineTextAlignment(.center)
                         .foregroundColor(.white)
