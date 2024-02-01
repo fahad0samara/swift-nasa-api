@@ -13,7 +13,7 @@ struct WelcomeView: View {
         NavigationStack{
             ZStack {
                 GeometryReader { geometry in
-                    Image("nasa0") // Replace with your space-themed image
+                    Image("nasa0")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(minWidth:10)
